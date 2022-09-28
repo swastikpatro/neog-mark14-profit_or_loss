@@ -14,5 +14,85 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <script src="./index.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <h1 class="heading">Profit & Loss Calculator</h1>
+      <p>
+        Enter your Initial Price, No. of Stocks & Current Price of the Stock,
+        we'll let you know <em>Profit & Profit Percentage</em> OR
+        <em>Loss & Loss Percentage</em>.
+        <span>Don't worry we don't store your data.</span>
+      </p>
+      <div class="alert"></div>
+    </header>
+
+    <form name="form">
+      <div class="inputs">
+        <div class="initial-price-input">
+          <label for="initial-price-input">Initial Price:</label>
+          <input
+            type="number"
+            name="initial-price-input"
+            id="initial-price-input"
+            placeholder="enter the initial price"
+          />
+        </div>
+        <div class="quantity-input">
+          <label for="quantity-input">Quantity of Stocks:</label>
+
+          <input
+            type="number"
+            name="quantity-input"
+            id="quantity-input"
+            placeholder="enter the quantity"
+          />
+        </div>
+        <div class="current-price-input">
+          <label for="current-price-input">Current Price:</label>
+          <input
+            type="number"
+            name="current-price-input"
+            id="current-price-input"
+            placeholder="enter the current price"
+          />
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="btn" data-btn="check">Check</button>
+        <button class="btn" data-btn="clear">Clear</button>
+      </div>
+
+      <div class="output-section"></div>
+    </form>
+
+    <!-- footer -->
+    <footer class="footer">
+      <h2>social links</h2>
+      <ul class="footer-links">
+        <li>
+          <a href="https://github.com/swastikpatro" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Swastik2001" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/swastik-patro-2a54bb19b/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://swastik-patro-portfolio.netlify.app/" target="_blank"
+            ><i class="fa-solid fa-laptop-file"></i
+          ></a>
+        </li>
+      </ul>
+    </footer>
+    <!-- end of footer -->
+  </body>
 </html>
