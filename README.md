@@ -1,6 +1,6 @@
 # Mark-14 Profit And Loss Calculator
 
-[Live Link]()
+[Live Link](https://neog-profit-and-loss-calculator.vercel.app/)
 
 A website which helps user how much profit or loss he/she is making in percentage & absolute value.
 
