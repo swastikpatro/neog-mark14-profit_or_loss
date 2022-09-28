@@ -4,6 +4,14 @@
 
 A website which helps user how much profit or loss he/she is making in percentage & absolute value.
 
+## Tech Used
+
+- HTML
+- CSS
+- JS
+
+## Description:
+
 - Given Initial Price, No. of Stocks & Current Price of the Stock, we'll let you know Profit & Profit Percentage OR Loss & Loss Percentage.
 - Alerts if
   - Any input is empty, -ve or zero.
