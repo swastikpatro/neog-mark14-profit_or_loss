@@ -23,4 +23,4 @@ A website which helps user how much profit or loss he/she is making in percentag
 
 ## Snapshot of the app
 
-![Palindrome birthday](profit-loss-snap.JPG)
+![Profit & Loss Calculator](profit-loss-snap.JPG)
