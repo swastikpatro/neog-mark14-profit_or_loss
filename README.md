@@ -20,3 +20,7 @@ A website which helps user how much profit or loss he/she is making in percentag
 - Clicking Clear button empties all input fields,empties the output.
 - (Additional feature) If you click input with output showing for previous inputs, we assume you are changing the inputs, so we clear down the output.
 - Output highlighted with red or green depending loss or profit.
+
+## Snapshot of the app
+
+![Palindrome birthday](profit-loss-snap.JPG)
